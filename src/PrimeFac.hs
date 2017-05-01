@@ -155,7 +155,7 @@ pfactest x = case toXSNat x of
       pfac -> ExPFac pfac
   _ -> error "Too small int."
 
-test_final =  map (\x -> (x, pfactest x)) [2..120]
+test_primefac_twoTooneTwenty =  map (\x -> (x, pfactest x)) [2..120]
 
 factor :: -- factor numbers 4 or higher
   (False ~ IsPrime (Succ (Succ n))) =>
