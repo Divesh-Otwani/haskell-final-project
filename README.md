@@ -25,7 +25,7 @@ that made some proofs near impossible.
 
 I should use GADTs instead of type families to hold
 constraints. Further, it isn't until now that I realized that
-I could use type families that return booleans to construct 
+I could use type families to construct 
 GADTs:
 
 ```haskell
