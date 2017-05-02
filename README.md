@@ -63,7 +63,7 @@ and create the type families to mirror this.
 
 ## New Stuff -- past the deadline
 
-I am putting the new stuff in PrimeFac2
+I am putting the new stuff is the folder, /better.
 
 
 
