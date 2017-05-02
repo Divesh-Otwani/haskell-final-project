@@ -31,7 +31,7 @@ GADTs:
 ```haskell
 
 data Prime :: Nat -> Type where
-  Prime :: SNat n -> (IsPrime n :~: True) -> Prime n
+  Prime :: (IsPrime n :~: True) -> Prime n
     
  ```
 
