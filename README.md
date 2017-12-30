@@ -60,12 +60,12 @@ The key observation is the following.
 > Use the *structure* of types instead of type families to encode correctness properties. For example, make GADTS for the "return types" of functions such that they express correctness properties. Look at my PrimeFac type on line 119 in src/PrimeFac.hs. This was the start of a good idea.
 
 
-## What should I have done?
+## Concretely, What should I have done?
 
 
 Well, first of all, I should have understood that I need to
 make my types, Gadt's and type families center around the 
-major proofs, and NOT the other way around.
+major proofs, and NOT the other way around. In this way, the structure of types helps prove and encode correctness properties.
 
 These are
 
