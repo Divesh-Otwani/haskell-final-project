@@ -67,7 +67,7 @@ Well, first of all, I should have understood that I need to
 make my types, Gadt's and type families center around the 
 major proofs, and NOT the other way around. In this way, the structure of types helps prove and encode correctness properties.
 
-These are
+The key proofs are
 
 * Proving a number is prime
 (This proof is one I have accomplished. It's just important to note that it could be done better.)
@@ -82,7 +82,7 @@ factor ::
   Either (Prime (Succ n)) (SimpleFactor (Succ n))
 
 ```
-and create the type families to mirror this.
+and create the GADTS and type families to help prove this.
 
 These ideas are written in an interface in /better.
 
