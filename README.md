@@ -1,4 +1,4 @@
-# HaskellFinalProj
+# Haskell Final Project
 
 ## Description
 
